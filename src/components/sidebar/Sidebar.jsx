@@ -1,9 +1,6 @@
 import './sidebar.scss'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
-import InventoryIcon from '@mui/icons-material/Inventory';
-import PaymentIcon from '@mui/icons-material/Payment';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import EqualizerIcon from '@mui/icons-material/Equalizer';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import ErrorIcon from '@mui/icons-material/Error';
@@ -11,13 +8,16 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
+import HouseIcon from '@mui/icons-material/House';
+import OtherHousesIcon from '@mui/icons-material/OtherHouses';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 
 
 const Sidebar = () => {
     return(
         <div className="sidebar">
             <div className='top'>
-                    <span className='logo'>Opto Controls</span>
+                    <span className='logo'>Harmony Heights Hotel</span>
 
             </div>
             <hr />
@@ -29,22 +29,22 @@ const Sidebar = () => {
                             <DashboardIcon className='icon' />
                             <span>Dashboard</span>
                         </li>
-                    <p className='title'>LISTS</p>
+                    <p className='title'>CUSTOMER SERVICE</p>
                         <li>
                             <PeopleIcon className='icon' />
-                            <span>Users</span>
+                            <span>Customers</span>
                         </li>
                         <li>
-                            <InventoryIcon className='icon' />
-                            <span>Products</span>
+                            <LibraryBooksIcon className='icon' />
+                            <span>Bookings</span>
                         </li>
                     <li>
-                        <PaymentIcon className='icon' />
-                        <span>Orders</span>
+                        <HouseIcon className='icon' />
+                        <span>Rooms</span>
                     </li>
                     <li>
-                        <LocalShippingIcon className='icon' />
-                        <span>Delivery</span>
+                        <OtherHousesIcon className='icon' />
+                        <span>Room Types</span>
                     </li>
                     <p className='title'>USEFUL</p>
                     <li>
